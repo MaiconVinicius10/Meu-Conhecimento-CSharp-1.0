@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Meu_Conhecimento_CSharp_1._0
 {
-    public partial class Form1 :Form
+    public partial class F_Menu :Form
     {
-        public Form1()
+        public F_Menu()
         {
             InitializeComponent();
         }
