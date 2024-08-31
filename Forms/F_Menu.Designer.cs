@@ -69,6 +69,7 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.btb_Limpar.TabIndex = 3;
             this.btb_Limpar.Text = "Limpar";
             this.btb_Limpar.UseVisualStyleBackColor = true;
+            this.btb_Limpar.Click += new System.EventHandler(this.btb_Limpar_Click);
             // 
             // btn_Adicionar
             // 
@@ -78,6 +79,7 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.btn_Adicionar.TabIndex = 4;
             this.btn_Adicionar.Text = "Adicionar";
             this.btn_Adicionar.UseVisualStyleBackColor = true;
+            this.btn_Adicionar.Click += new System.EventHandler(this.btn_Adicionar_Click);
             // 
             // F_Menu
             // 
