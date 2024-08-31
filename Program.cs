@@ -16,7 +16,7 @@ namespace Meu_Conhecimento_CSharp_1._0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new F_Menu());
+            Application.Run(new F_Menu()); 
         }
     }
 }
