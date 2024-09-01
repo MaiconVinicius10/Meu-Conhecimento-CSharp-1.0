@@ -91,6 +91,7 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.btn_MostrarListaVeiculos.TabIndex = 5;
             this.btn_MostrarListaVeiculos.Text = "Lista de Veiculos";
             this.btn_MostrarListaVeiculos.UseVisualStyleBackColor = true;
+            this.btn_MostrarListaVeiculos.Click += new System.EventHandler(this.btn_MostrarListaVeiculos_Click);
             // 
             // btn_Sair
             // 
