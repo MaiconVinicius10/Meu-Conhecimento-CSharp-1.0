@@ -35,6 +35,8 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.txt_ListaVeiculos = new System.Windows.Forms.TextBox();
             this.btb_Limpar = new System.Windows.Forms.Button();
             this.btn_Adicionar = new System.Windows.Forms.Button();
+            this.btn_MostrarListaVeiculos = new System.Windows.Forms.Button();
+            this.btn_Sair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -81,11 +83,31 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.btn_Adicionar.UseVisualStyleBackColor = true;
             this.btn_Adicionar.Click += new System.EventHandler(this.btn_Adicionar_Click);
             // 
+            // btn_MostrarListaVeiculos
+            // 
+            this.btn_MostrarListaVeiculos.Location = new System.Drawing.Point(32, 415);
+            this.btn_MostrarListaVeiculos.Name = "btn_MostrarListaVeiculos";
+            this.btn_MostrarListaVeiculos.Size = new System.Drawing.Size(293, 23);
+            this.btn_MostrarListaVeiculos.TabIndex = 5;
+            this.btn_MostrarListaVeiculos.Text = "Lista de Veiculos";
+            this.btn_MostrarListaVeiculos.UseVisualStyleBackColor = true;
+            // 
+            // btn_Sair
+            // 
+            this.btn_Sair.Location = new System.Drawing.Point(32, 444);
+            this.btn_Sair.Name = "btn_Sair";
+            this.btn_Sair.Size = new System.Drawing.Size(293, 23);
+            this.btn_Sair.TabIndex = 6;
+            this.btn_Sair.Text = "Sair";
+            this.btn_Sair.UseVisualStyleBackColor = true;
+            // 
             // F_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(353, 428);
+            this.ClientSize = new System.Drawing.Size(353, 481);
+            this.Controls.Add(this.btn_Sair);
+            this.Controls.Add(this.btn_MostrarListaVeiculos);
             this.Controls.Add(this.btn_Adicionar);
             this.Controls.Add(this.btb_Limpar);
             this.Controls.Add(this.txt_ListaVeiculos);
@@ -109,6 +131,8 @@ namespace Meu_Conhecimento_CSharp_1._0
         private System.Windows.Forms.TextBox txt_ListaVeiculos;
         private System.Windows.Forms.Button btb_Limpar;
         private System.Windows.Forms.Button btn_Adicionar;
+        private System.Windows.Forms.Button btn_MostrarListaVeiculos;
+        private System.Windows.Forms.Button btn_Sair;
     }
 }
 
