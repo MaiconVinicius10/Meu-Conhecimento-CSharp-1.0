@@ -11,10 +11,12 @@ using System.Windows.Forms;
 namespace Meu_Conhecimento_CSharp_1._0.Forms
 {
     public partial class F_ListaVeiculos :Form
-    {
-        public F_ListaVeiculos()
+    {   //dentro do metodo - eu recebo lista veiculos
+        public F_ListaVeiculos(String lista)
         {
             InitializeComponent();
+            //recebendo as lista
+            txt_ListaVeiculos.Text = lista;
         }
     }
 }
