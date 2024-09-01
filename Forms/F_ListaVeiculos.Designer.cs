@@ -29,22 +29,35 @@ namespace Meu_Conhecimento_CSharp_1._0.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            this.txt_ListaVeiculos = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
+            // 
+            // txt_ListaVeiculos
+            // 
+            this.txt_ListaVeiculos.Location = new System.Drawing.Point(12, 12);
+            this.txt_ListaVeiculos.Multiline = true;
+            this.txt_ListaVeiculos.Name = "txt_ListaVeiculos";
+            this.txt_ListaVeiculos.Size = new System.Drawing.Size(477, 445);
+            this.txt_ListaVeiculos.TabIndex = 0;
             // 
             // F_ListaVeiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(501, 469);
+            this.Controls.Add(this.txt_ListaVeiculos);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_ListaVeiculos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "F_ListaVeiculos";
+            this.Text = "Lista de Veiculos";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox txt_ListaVeiculos;
     }
 }
