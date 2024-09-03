@@ -37,6 +37,7 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.btn_Adicionar = new System.Windows.Forms.Button();
             this.btn_MostrarListaVeiculos = new System.Windows.Forms.Button();
             this.btn_Sair = new System.Windows.Forms.Button();
+            this.btn_ContagemTela = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -95,18 +96,29 @@ namespace Meu_Conhecimento_CSharp_1._0
             // 
             // btn_Sair
             // 
-            this.btn_Sair.Location = new System.Drawing.Point(32, 444);
+            this.btn_Sair.Location = new System.Drawing.Point(32, 475);
             this.btn_Sair.Name = "btn_Sair";
             this.btn_Sair.Size = new System.Drawing.Size(293, 23);
             this.btn_Sair.TabIndex = 6;
             this.btn_Sair.Text = "Sair";
             this.btn_Sair.UseVisualStyleBackColor = true;
             // 
+            // btn_ContagemTela
+            // 
+            this.btn_ContagemTela.Location = new System.Drawing.Point(32, 444);
+            this.btn_ContagemTela.Name = "btn_ContagemTela";
+            this.btn_ContagemTela.Size = new System.Drawing.Size(293, 23);
+            this.btn_ContagemTela.TabIndex = 7;
+            this.btn_ContagemTela.Text = "Contagem de Tela";
+            this.btn_ContagemTela.UseVisualStyleBackColor = true;
+            this.btn_ContagemTela.Click += new System.EventHandler(this.btn_ContagemTela_Click);
+            // 
             // F_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(353, 481);
+            this.ClientSize = new System.Drawing.Size(353, 527);
+            this.Controls.Add(this.btn_ContagemTela);
             this.Controls.Add(this.btn_Sair);
             this.Controls.Add(this.btn_MostrarListaVeiculos);
             this.Controls.Add(this.btn_Adicionar);
@@ -129,11 +141,12 @@ namespace Meu_Conhecimento_CSharp_1._0
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_AdicionarVeiculo;
-        private System.Windows.Forms.TextBox txt_ListaVeiculos;
         private System.Windows.Forms.Button btb_Limpar;
         private System.Windows.Forms.Button btn_Adicionar;
         private System.Windows.Forms.Button btn_MostrarListaVeiculos;
         private System.Windows.Forms.Button btn_Sair;
+        public System.Windows.Forms.TextBox txt_ListaVeiculos;
+        private System.Windows.Forms.Button btn_ContagemTela;
     }
 }
 

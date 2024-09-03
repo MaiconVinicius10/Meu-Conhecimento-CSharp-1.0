@@ -51,6 +51,7 @@ namespace Meu_Conhecimento_CSharp_1._0.Forms
             this.Name = "F_ListaVeiculos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de Veiculos";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.F_ListaVeiculos_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
