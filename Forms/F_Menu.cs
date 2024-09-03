@@ -13,7 +13,8 @@ using System.Windows.Forms;
 namespace Meu_Conhecimento_CSharp_1._0
 {
     public partial class F_Menu :Form
-    {
+    {   //criando variavel contagem de tela
+        int contagem = 0;
         public F_Menu()
         {
             InitializeComponent();
@@ -36,8 +37,15 @@ namespace Meu_Conhecimento_CSharp_1._0
         // Botão Mostrar Lista Veiculos
         private void btn_MostrarListaVeiculos_Click(object sender, EventArgs e)
         {
-            F_ListaVeiculos f_ListaVeiculos = new F_ListaVeiculos(txt_ListaVeiculos.Text);
+            contagem++;
+            F_ListaVeiculos f_ListaVeiculos = new F_ListaVeiculos(txt_ListaVeiculos.Text,this);
             f_ListaVeiculos.ShowDialog();
+        }
+        // botão Contagem de Tela
+        private void btn_ContagemTela_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Esse contador mostra , quantas vezes você abriu a lista de veiculos.: "+contagem,
+                "Atenção",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
     }
 }
