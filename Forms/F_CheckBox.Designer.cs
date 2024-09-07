@@ -34,7 +34,7 @@ namespace Meu_Conhecimento_CSharp_1._0.Forms
             this.cb_Navio = new System.Windows.Forms.CheckBox();
             this.cb_Onibus = new System.Windows.Forms.CheckBox();
             this.cb_DevMike = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_MostrarSelecionados = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cb_Avião
@@ -86,22 +86,24 @@ namespace Meu_Conhecimento_CSharp_1._0.Forms
             this.cb_DevMike.TabIndex = 3;
             this.cb_DevMike.Text = "DevMike";
             this.cb_DevMike.UseVisualStyleBackColor = true;
+            this.cb_DevMike.CheckedChanged += new System.EventHandler(this.cb_DevMike_CheckedChanged);
             // 
-            // button1
+            // btn_MostrarSelecionados
             // 
-            this.button1.Location = new System.Drawing.Point(122, 37);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(222, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Mostrar Selecionados";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_MostrarSelecionados.Location = new System.Drawing.Point(122, 37);
+            this.btn_MostrarSelecionados.Name = "btn_MostrarSelecionados";
+            this.btn_MostrarSelecionados.Size = new System.Drawing.Size(222, 23);
+            this.btn_MostrarSelecionados.TabIndex = 4;
+            this.btn_MostrarSelecionados.Text = "Mostrar Selecionados";
+            this.btn_MostrarSelecionados.UseVisualStyleBackColor = true;
+            this.btn_MostrarSelecionados.Click += new System.EventHandler(this.btn_MostrarSelecionados_Click);
             // 
             // F_CheckBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(356, 536);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_MostrarSelecionados);
             this.Controls.Add(this.cb_DevMike);
             this.Controls.Add(this.cb_Onibus);
             this.Controls.Add(this.cb_Navio);
@@ -121,6 +123,6 @@ namespace Meu_Conhecimento_CSharp_1._0.Forms
         private System.Windows.Forms.CheckBox cb_Navio;
         private System.Windows.Forms.CheckBox cb_Onibus;
         private System.Windows.Forms.CheckBox cb_DevMike;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_MostrarSelecionados;
     }
 }
