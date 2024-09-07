@@ -109,7 +109,10 @@ namespace Meu_Conhecimento_CSharp_1._0.Forms
             this.Controls.Add(this.cb_Navio);
             this.Controls.Add(this.cb_Carro);
             this.Controls.Add(this.cb_Avião);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "F_CheckBox";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F_CheckBox";
             this.ResumeLayout(false);
             this.PerformLayout();
