@@ -47,5 +47,10 @@ namespace Meu_Conhecimento_CSharp_1._0
             MessageBox.Show("Esse contador mostra , quantas vezes você abriu a lista de veiculos.: "+contagem,
                 "Atenção",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
+        //Menu CheckBox
+        private void checkBoxToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

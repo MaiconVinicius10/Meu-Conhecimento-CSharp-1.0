@@ -38,6 +38,11 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.btn_MostrarListaVeiculos = new System.Windows.Forms.Button();
             this.btn_Sair = new System.Windows.Forms.Button();
             this.btn_ContagemTela = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.checkBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkedListBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -113,6 +118,39 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.btn_ContagemTela.UseVisualStyleBackColor = true;
             this.btn_ContagemTela.Click += new System.EventHandler(this.btn_ContagemTela_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkBoxToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(353, 28);
+            this.menuStrip1.TabIndex = 8;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // checkBoxToolStripMenuItem
+            // 
+            this.checkBoxToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkBoxToolStripMenuItem1,
+            this.checkedListBoxToolStripMenuItem});
+            this.checkBoxToolStripMenuItem.Name = "checkBoxToolStripMenuItem";
+            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
+            this.checkBoxToolStripMenuItem.Text = "Componentes";
+            // 
+            // checkBoxToolStripMenuItem1
+            // 
+            this.checkBoxToolStripMenuItem1.Name = "checkBoxToolStripMenuItem1";
+            this.checkBoxToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.checkBoxToolStripMenuItem1.Text = "CheckBox";
+            this.checkBoxToolStripMenuItem1.Click += new System.EventHandler(this.checkBoxToolStripMenuItem1_Click);
+            // 
+            // checkedListBoxToolStripMenuItem
+            // 
+            this.checkedListBoxToolStripMenuItem.Name = "checkedListBoxToolStripMenuItem";
+            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.checkedListBoxToolStripMenuItem.Text = "CheckedListBox";
+            // 
             // F_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -126,12 +164,16 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.Controls.Add(this.txt_ListaVeiculos);
             this.Controls.Add(this.txt_AdicionarVeiculo);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Meu Menu";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,6 +189,10 @@ namespace Meu_Conhecimento_CSharp_1._0
         private System.Windows.Forms.Button btn_Sair;
         public System.Windows.Forms.TextBox txt_ListaVeiculos;
         private System.Windows.Forms.Button btn_ContagemTela;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem checkBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkBoxToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem checkedListBoxToolStripMenuItem;
     }
 }
 

@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\F_CheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_CheckBox.Designer.cs">
+      <DependentUpon>F_CheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_CheckedListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_CheckedListBox.Designer.cs">
+      <DependentUpon>F_CheckedListBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\F_ListaVeiculos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\F_CheckBox.resx">
+      <DependentUpon>F_CheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_CheckedListBox.resx">
+      <DependentUpon>F_CheckedListBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\F_ListaVeiculos.resx">
       <DependentUpon>F_ListaVeiculos.cs</DependentUpon>
     </EmbeddedResource>
