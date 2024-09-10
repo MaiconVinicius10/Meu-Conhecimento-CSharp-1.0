@@ -32,38 +32,48 @@ namespace Meu_Conhecimento_CSharp_1._0.Forms
             foreach (CheckBox t in listatransportes)
             {
                 if (t.Checked)
-                {   
+                {
                     num++;
                     txt = t.Text;
                 }
             }
             if (num == 0)
-            {               
+            {
                 MessageBox.Show("Você não selecionou nenhum transporte", "Atenção",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (num == 1)
             {
                 MessageBox.Show("Você selecionou o tranporte:" + txt, "Mike Tranportes",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);                    
-                
-            }else if (num > 1)
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            else if (num > 1)
             {
                 foreach (CheckBox t2 in listatransportes)
                 {
                     if (t2.Checked)
                     {
                         num++;
-                        txt2 += t2.Text+", ";
+                        txt2 += t2.Text + ", ";
                     }
                 }
-                MessageBox.Show("Transportes selecionados: " + txt2,"Atenção");
+                MessageBox.Show("Transportes selecionados: " + txt2, "Atenção");
             }
         }
         //cb_DevMike
         private void cb_DevMike_CheckedChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("Com muito esforço vamos conseguir é questão de trabalhar bastante todos os dias.....");
+            if (cb_DevMike.Checked)
+            {
+                MessageBox.Show("Com muito esforço vamos conseguir é questão de trabalhar bastante todos os dias.....");
+            }
+        }
+        //botão abrir formulario
+        private void btn_FormFilho_Click(object sender, EventArgs e)
+        {
+            F_FilhoCheckBox f_FilhoCheckBox = new F_FilhoCheckBox();
+            f_FilhoCheckBox.ShowDialog();
         }
     }
 }
