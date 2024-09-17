@@ -53,5 +53,11 @@ namespace Meu_Conhecimento_CSharp_1._0
             F_CheckBox f_CheckBox = new F_CheckBox();
             f_CheckBox.ShowDialog();
         }
+        //Menu CheckListBox
+        private void checkedListBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_CheckedListBox f_CheckedListBox = new F_CheckedListBox();
+            f_CheckedListBox.ShowDialog();
+        }
     }
 }

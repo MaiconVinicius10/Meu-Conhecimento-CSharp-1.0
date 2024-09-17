@@ -150,6 +150,7 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.checkedListBoxToolStripMenuItem.Name = "checkedListBoxToolStripMenuItem";
             this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.checkedListBoxToolStripMenuItem.Text = "CheckedListBox";
+            this.checkedListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem_Click);
             // 
             // F_Menu
             // 
