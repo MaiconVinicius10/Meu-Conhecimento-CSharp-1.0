@@ -65,5 +65,11 @@ namespace Meu_Conhecimento_CSharp_1._0
             F_ComboBox f_ComboBox = new F_ComboBox();
             f_ComboBox.ShowDialog();
         }
+        //Menu DateTimePicker
+        private void dateTimePickerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_DateTimePicker f_DateTimePicker = new F_DateTimePicker();
+            f_DateTimePicker.ShowDialog();
+        }
     }
 }

@@ -43,6 +43,7 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.checkBoxToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.checkedListBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dateTimePickerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,7 +136,8 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.checkBoxToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.checkBoxToolStripMenuItem1,
             this.checkedListBoxToolStripMenuItem,
-            this.comboBoxToolStripMenuItem});
+            this.comboBoxToolStripMenuItem,
+            this.dateTimePickerToolStripMenuItem});
             this.checkBoxToolStripMenuItem.Name = "checkBoxToolStripMenuItem";
             this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
             this.checkBoxToolStripMenuItem.Text = "Componentes";
@@ -160,6 +162,13 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.comboBoxToolStripMenuItem.Text = "ComboBox";
             this.comboBoxToolStripMenuItem.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
+            // 
+            // dateTimePickerToolStripMenuItem
+            // 
+            this.dateTimePickerToolStripMenuItem.Name = "dateTimePickerToolStripMenuItem";
+            this.dateTimePickerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.dateTimePickerToolStripMenuItem.Text = "DateTimePicker";
+            this.dateTimePickerToolStripMenuItem.Click += new System.EventHandler(this.dateTimePickerToolStripMenuItem_Click);
             // 
             // F_Menu
             // 
@@ -204,6 +213,7 @@ namespace Meu_Conhecimento_CSharp_1._0
         private System.Windows.Forms.ToolStripMenuItem checkBoxToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem checkedListBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem comboBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dateTimePickerToolStripMenuItem;
     }
 }
 
