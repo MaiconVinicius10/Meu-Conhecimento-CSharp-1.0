@@ -71,5 +71,11 @@ namespace Meu_Conhecimento_CSharp_1._0
             F_DateTimePicker f_DateTimePicker = new F_DateTimePicker();
             f_DateTimePicker.ShowDialog();
         }
+        //Menu LinkLabel
+        private void linkLabelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_LinkLabel f_LinkLabel = new F_LinkLabel();
+            f_LinkLabel.ShowDialog();
+        }
     }
 }
