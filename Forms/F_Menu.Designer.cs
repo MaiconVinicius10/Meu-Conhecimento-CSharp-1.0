@@ -45,38 +45,43 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTimePickerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linkLabelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 46);
+            this.label1.Location = new System.Drawing.Point(22, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 17);
+            this.label1.Size = new System.Drawing.Size(89, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Digite um Veiculo";
             // 
             // txt_AdicionarVeiculo
             // 
-            this.txt_AdicionarVeiculo.Location = new System.Drawing.Point(32, 76);
+            this.txt_AdicionarVeiculo.Location = new System.Drawing.Point(24, 62);
+            this.txt_AdicionarVeiculo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_AdicionarVeiculo.Name = "txt_AdicionarVeiculo";
-            this.txt_AdicionarVeiculo.Size = new System.Drawing.Size(212, 22);
+            this.txt_AdicionarVeiculo.Size = new System.Drawing.Size(160, 20);
             this.txt_AdicionarVeiculo.TabIndex = 1;
             // 
             // txt_ListaVeiculos
             // 
-            this.txt_ListaVeiculos.Location = new System.Drawing.Point(32, 104);
+            this.txt_ListaVeiculos.Location = new System.Drawing.Point(24, 84);
+            this.txt_ListaVeiculos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_ListaVeiculos.Multiline = true;
             this.txt_ListaVeiculos.Name = "txt_ListaVeiculos";
-            this.txt_ListaVeiculos.Size = new System.Drawing.Size(293, 276);
+            this.txt_ListaVeiculos.Size = new System.Drawing.Size(221, 225);
             this.txt_ListaVeiculos.TabIndex = 2;
             // 
             // btb_Limpar
             // 
-            this.btb_Limpar.Location = new System.Drawing.Point(32, 386);
+            this.btb_Limpar.Location = new System.Drawing.Point(24, 314);
+            this.btb_Limpar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btb_Limpar.Name = "btb_Limpar";
-            this.btb_Limpar.Size = new System.Drawing.Size(293, 23);
+            this.btb_Limpar.Size = new System.Drawing.Size(220, 19);
             this.btb_Limpar.TabIndex = 3;
             this.btb_Limpar.Text = "Limpar";
             this.btb_Limpar.UseVisualStyleBackColor = true;
@@ -84,9 +89,10 @@ namespace Meu_Conhecimento_CSharp_1._0
             // 
             // btn_Adicionar
             // 
-            this.btn_Adicionar.Location = new System.Drawing.Point(250, 76);
+            this.btn_Adicionar.Location = new System.Drawing.Point(188, 62);
+            this.btn_Adicionar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_Adicionar.Name = "btn_Adicionar";
-            this.btn_Adicionar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Adicionar.Size = new System.Drawing.Size(56, 19);
             this.btn_Adicionar.TabIndex = 4;
             this.btn_Adicionar.Text = "Adicionar";
             this.btn_Adicionar.UseVisualStyleBackColor = true;
@@ -94,9 +100,10 @@ namespace Meu_Conhecimento_CSharp_1._0
             // 
             // btn_MostrarListaVeiculos
             // 
-            this.btn_MostrarListaVeiculos.Location = new System.Drawing.Point(32, 415);
+            this.btn_MostrarListaVeiculos.Location = new System.Drawing.Point(24, 337);
+            this.btn_MostrarListaVeiculos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_MostrarListaVeiculos.Name = "btn_MostrarListaVeiculos";
-            this.btn_MostrarListaVeiculos.Size = new System.Drawing.Size(293, 23);
+            this.btn_MostrarListaVeiculos.Size = new System.Drawing.Size(220, 19);
             this.btn_MostrarListaVeiculos.TabIndex = 5;
             this.btn_MostrarListaVeiculos.Text = "Lista de Veiculos";
             this.btn_MostrarListaVeiculos.UseVisualStyleBackColor = true;
@@ -104,18 +111,20 @@ namespace Meu_Conhecimento_CSharp_1._0
             // 
             // btn_Sair
             // 
-            this.btn_Sair.Location = new System.Drawing.Point(32, 475);
+            this.btn_Sair.Location = new System.Drawing.Point(24, 386);
+            this.btn_Sair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_Sair.Name = "btn_Sair";
-            this.btn_Sair.Size = new System.Drawing.Size(293, 23);
+            this.btn_Sair.Size = new System.Drawing.Size(220, 19);
             this.btn_Sair.TabIndex = 6;
             this.btn_Sair.Text = "Sair";
             this.btn_Sair.UseVisualStyleBackColor = true;
             // 
             // btn_ContagemTela
             // 
-            this.btn_ContagemTela.Location = new System.Drawing.Point(32, 444);
+            this.btn_ContagemTela.Location = new System.Drawing.Point(24, 361);
+            this.btn_ContagemTela.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_ContagemTela.Name = "btn_ContagemTela";
-            this.btn_ContagemTela.Size = new System.Drawing.Size(293, 23);
+            this.btn_ContagemTela.Size = new System.Drawing.Size(220, 19);
             this.btn_ContagemTela.TabIndex = 7;
             this.btn_ContagemTela.Text = "Contagem de Tela";
             this.btn_ContagemTela.UseVisualStyleBackColor = true;
@@ -128,7 +137,8 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.checkBoxToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(353, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(265, 24);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -139,51 +149,59 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.checkedListBoxToolStripMenuItem,
             this.comboBoxToolStripMenuItem,
             this.dateTimePickerToolStripMenuItem,
-            this.linkLabelToolStripMenuItem});
+            this.linkLabelToolStripMenuItem,
+            this.listBoxToolStripMenuItem});
             this.checkBoxToolStripMenuItem.Name = "checkBoxToolStripMenuItem";
-            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
+            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.checkBoxToolStripMenuItem.Text = "Componentes";
             // 
             // checkBoxToolStripMenuItem1
             // 
             this.checkBoxToolStripMenuItem1.Name = "checkBoxToolStripMenuItem1";
-            this.checkBoxToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.checkBoxToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.checkBoxToolStripMenuItem1.Text = "CheckBox";
             this.checkBoxToolStripMenuItem1.Click += new System.EventHandler(this.checkBoxToolStripMenuItem1_Click);
             // 
             // checkedListBoxToolStripMenuItem
             // 
             this.checkedListBoxToolStripMenuItem.Name = "checkedListBoxToolStripMenuItem";
-            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.checkedListBoxToolStripMenuItem.Text = "CheckedListBox";
             this.checkedListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem_Click);
             // 
             // comboBoxToolStripMenuItem
             // 
             this.comboBoxToolStripMenuItem.Name = "comboBoxToolStripMenuItem";
-            this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.comboBoxToolStripMenuItem.Text = "ComboBox";
             this.comboBoxToolStripMenuItem.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
             // 
             // dateTimePickerToolStripMenuItem
             // 
             this.dateTimePickerToolStripMenuItem.Name = "dateTimePickerToolStripMenuItem";
-            this.dateTimePickerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.dateTimePickerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.dateTimePickerToolStripMenuItem.Text = "DateTimePicker";
             this.dateTimePickerToolStripMenuItem.Click += new System.EventHandler(this.dateTimePickerToolStripMenuItem_Click);
             // 
             // linkLabelToolStripMenuItem
             // 
             this.linkLabelToolStripMenuItem.Name = "linkLabelToolStripMenuItem";
-            this.linkLabelToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.linkLabelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.linkLabelToolStripMenuItem.Text = "LinkLabel";
             this.linkLabelToolStripMenuItem.Click += new System.EventHandler(this.linkLabelToolStripMenuItem_Click);
             // 
+            // listBoxToolStripMenuItem
+            // 
+            this.listBoxToolStripMenuItem.Name = "listBoxToolStripMenuItem";
+            this.listBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listBoxToolStripMenuItem.Text = "ListBox";
+            this.listBoxToolStripMenuItem.Click += new System.EventHandler(this.listBoxToolStripMenuItem_Click);
+            // 
             // F_Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(353, 527);
+            this.ClientSize = new System.Drawing.Size(265, 428);
             this.Controls.Add(this.btn_ContagemTela);
             this.Controls.Add(this.btn_Sair);
             this.Controls.Add(this.btn_MostrarListaVeiculos);
@@ -195,6 +213,7 @@ namespace Meu_Conhecimento_CSharp_1._0
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_Menu";
@@ -224,6 +243,7 @@ namespace Meu_Conhecimento_CSharp_1._0
         private System.Windows.Forms.ToolStripMenuItem comboBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dateTimePickerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem linkLabelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listBoxToolStripMenuItem;
     }
 }
 
