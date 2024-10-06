@@ -60,7 +60,6 @@ namespace Meu_Conhecimento_CSharp_1._0.Forms
                     txt_Transporte.Clear();
                     txt_Transporte.Focus();
                 }
-
             }
             else
             {
