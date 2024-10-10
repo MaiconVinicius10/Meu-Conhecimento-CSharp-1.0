@@ -19,7 +19,7 @@ namespace Meu_Conhecimento_CSharp_1._0.Forms
 
             carros.Add("HRV");
             carros.Add("Golf");
-            carros.Add("Focuas");
+            carros.Add("Fox");
             lb_carros.DataSource = carros;
 
         }
